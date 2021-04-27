@@ -47,6 +47,6 @@ app.get('/api' , (req, res) => {
     res.send(user)
 })
 
-app.listen(3000,() =>{
-    console.log("Running server 3000")
+app.listen(8080,() =>{
+    console.log("Running server 8080 ")
 })
